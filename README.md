@@ -1,45 +1,40 @@
-# 🚀 The Internet Herokuapp - Comprehensive UI Automation Framework
+# 🌟 **The Internet Herokuapp - Automation Testing Framework**
 
 [![Java](https://img.shields.io/badge/Java-11+-orange.svg)](https://www.oracle.com/java/)
 [![Selenium](https://img.shields.io/badge/Selenium-4.19.1-green.svg)](https://selenium.dev/)
 [![TestNG](https://img.shields.io/badge/TestNG-7.9.0-red.svg)](https://testng.org/)
 [![JUnit](https://img.shields.io/badge/JUnit-5.10.2-blue.svg)](https://junit.org/junit5/)
-[![Allure](https://img.shields.io/badge/Allure-2.24.0-yellow.svg)](https://docs.qameta.io/allure/)
 [![Maven](https://img.shields.io/badge/Maven-3.6+-purple.svg)](https://maven.apache.org/)
+[![Allure](https://img.shields.io/badge/Allure-2.24.0-yellow.svg)](https://docs.qameta.io/allure/)
 
-## 📋 Deskripsi
+## 🌟 **Ready to Start My QA Automation Career!**
 
-Project ini adalah **comprehensive automation testing framework** menggunakan **Java**, **Selenium WebDriver**, **TestNG**, dan **JUnit 5** untuk website demo [The Internet Herokuapp](https://the-internet.herokuapp.com/). Framework ini menerapkan **industry best practices** dengan Page Object Model, advanced reporting, bug tracking, dan struktur modular yang siap untuk production.
+This framework represents my **learning journey in automation testing** and demonstrates the foundational skills I've developed for **junior QA automation engineer positions**. The clean test structure, basic reporting systems, and organized code show my commitment to learning best practices and growing in the QA automation field.
 
-## ✨ Fitur Utama
+**Perfect for:**
+- 🎯 **Junior QA Automation Engineer** positions
+- 🎯 **QA Automation Trainee** roles
+- 🎯 **Entry-level Test Automation** opportunities
+- 🎯 **Learning-focused** QA environments
 
-### 🔧 **Core Framework**
-- **Multi-Framework Support**: TestNG & JUnit 5
-- **Page Object Model (POM)**: Clean, maintainable code structure
-- **WebDriverManager**: Auto-download ChromeDriver
-- **Cross-Component Testing**: 6+ different UI components
-- **Professional Architecture**: Enterprise-ready structure
+---
 
-### 📊 **Advanced Reporting & Analytics**
+*Built with 🌟 as part of my automation testing learning journey* [The Internet Herokuapp](https://the-internet.herokuapp.com) - a popular testing practice site. The framework demonstrates **core automation testing skills** including basic test architecture, Page Object Model implementation, test reporting, and clean code organization.
+
+**🎯 Learning Highlights:**
+- ✅ **Foundational** test framework setup and structure
+- ✅ **Clean** Page Object Model implementation
+- ✅ **Comprehensive** test coverage (15+ test scenarios)
+- ✅ **Basic** bug reporting with screenshot capture
+- ✅ **Modern** Allure integration for test reports
+- ✅ **Professional** code organization and documentation
+
+## 📊 **Advanced Reporting & Analytics**
 - **Allure Reporting**: Interactive test reports with rich analytics
 - **Screenshot Automation**: Auto-capture on test failures
 - **Bug Reporting System**: Automated bug report generation
 - **Test Categorization**: Epic, Feature, Story annotations
 - **Severity Levels**: Critical, High, Medium, Low priority classification
-
-### 🛠️ **Quality Assurance Features**
-- **Comprehensive Test Coverage**: 15+ test scenarios
-- **Error Handling**: Robust exception management
-- **Auto Bug Tracking**: Integration with bug reporting utilities
-- **Test Listeners**: Advanced TestNG listeners for monitoring
-- **CI/CD Ready**: Maven-based build system
-
-## 🎯 Website Target
-- **Primary URL**: https://the-internet.herokuapp.com/
-- **Login Page**: https://the-internet.herokuapp.com/login
-- **Valid Credentials**: 
-  - Username: `tomsmith`
-  - Password: `SuperSecretPassword!`
 
 ## 📁 Struktur Project
 
@@ -240,14 +235,7 @@ AllureBugReporter.reportCriticalBug(
 **1. Manual Bug Report:**
 ```java
 // Critical bug
-BugReporter.reportCriticalBug(
-    "Login System Crash",
-    "Application crashes when user login with special characters",
-    "System should handle special characters gracefully",
-    "Application throws NullPointerException",
-    "1. Navigate to login\n2. Enter special chars\n3. Observe crash",
-    driver
-);
+BugReporter.reportCriticalBug(testName, description, expected, actual, steps, driver);
 
 // High priority bug
 BugReporter.reportHighBug(testName, description, expected, actual, steps, driver);
@@ -344,7 +332,7 @@ System.setProperty("webdriver.chrome.verboseLogging", "true");
 
 ## 🏆 **Portfolio Highlights**
 
-**Project ini adalah comprehensive automation testing framework yang siap untuk Senior QA Automation Engineer positions!**
+**Project ini adalah comprehensive automation testing framework yang siap untuk Junior QA Automation Engineer positions!**
 
 ### ✨ **Technical Excellence**
 - ✅ **Page Object Model**: Clean, maintainable architecture
@@ -377,13 +365,13 @@ System.setProperty("webdriver.chrome.verboseLogging", "true");
 ### 🚀 **Career Readiness**
 
 **Suitable for positions:**
-- 🎯 **Senior QA Automation Engineer**
-- 🎯 **Test Automation Architect**
+- 🎯 **Junior QA Automation Engineer**
+- 🎯 **Automation Tester**
 - 🎯 **SDET (Software Development Engineer in Test)**
-- 🎯 **QA Lead dengan automation expertise**
+- 🎯 **QA Engineer dengan automation expertise**
 
 **Demonstrates expertise in:**
-- Advanced test automation frameworks
+- Basic test automation frameworks
 - Multiple testing paradigms
 - Professional reporting solutions
 - Enterprise-grade code quality
@@ -395,7 +383,7 @@ System.setProperty("webdriver.chrome.verboseLogging", "true");
 
 **Ready for technical interviews and code reviews!**
 
-This framework showcases production-ready automation testing skills suitable for senior-level positions in quality assurance and test automation.
+This framework showcases foundational automation testing skills suitable for junior-level positions in quality assurance and test automation.
 
 **Key Differentiators:**
 - Comprehensive test coverage across multiple UI components
