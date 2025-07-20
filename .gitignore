@@ -1,0 +1,54 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test Results
+test-output/
+allure-results/
+allure-report/
+screenshots/
+reports/
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Selenium
+chromedriver.exe
+geckodriver.exe
+*.exe
+
+# Test data files (if any)
+test-data/temp/

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ComprehensiveTestSuite" verbose="1" parallel="false">
+    <test name="LoginTests" group-by-instances="true">
+        <classes>
+            <class name="testng.LoginTestNG"/>
+        </classes>
+    </test>
+    
+    <test name="ComprehensiveUITests" group-by-instances="true">
+        <classes>
+            <class name="testng.ComprehensiveTestNG"/>
+        </classes>
+    </test>
+    
+    <test name="BugDemoTests" group-by-instances="true">
+        <classes>
+            <class name="testng.BugDemoTestNG"/>
+        </classes>
+    </test>
+</suite>
